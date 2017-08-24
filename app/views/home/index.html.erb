@@ -1,0 +1,112 @@
+<div class="container-fluid">
+	<div class="row margintop">
+		<div class="col-md-3"></div>
+		<div class="col-md-3">
+			<div id="skills" class="container">
+		    <div class="center"><h2>Skills</h2></div>
+		    <div class="field">
+		    	<p>HTML5</p>
+		    </div>
+		    <div class="field">
+		    	<p>SCSS</p>
+		    </div>
+		    <div class="field">
+		    	<p>Javascript</p>
+		    </div>
+		    <div class="field">
+		    	<p>Ruby</p>
+		    </div>
+		    <div class="field">
+		    	<p>SQL</p>
+		    </div>
+		    <div class="field">
+		    	<p>Ajax</p>
+		    </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div id="links" class="container">
+		    <div class="center"><h2>Links</h2></div>
+		    <div class="field">
+		    	<%= link_to "https://www.instagram.com/hans__palacios/", target: :_blank do %>
+			    	<%= image_tag "instagramlogo.png", :class => "linkimage" %>
+		    	<% end %>
+		    </div>
+		    <div class="field">
+		    	<%= link_to "https://www.facebook.com/hanssebastian", target: :_blank do %>
+			    	<%= image_tag "facebooklogo.png", :class => "linkimage" %>
+		    	<% end %>
+		    </div>
+		    <div class="field">
+		    	<%= link_to "https://www.meetup.com/members/228689923/", target: :_blank do %>
+			    	<%= image_tag "meetuplogo.png", :class => "meetupimage" %>
+		    	<% end %>
+		    </div>
+		    <div class="field">
+		    	<%= link_to "https://github.com/HansPalacios", target: :_blank do %>
+			    	<%= image_tag "githublogo.png", :class => "linkimage" %>
+		    	<% end %>
+		    </div>
+		    <div class="field">
+		    	<%= link_to "https://www.linkedin.com/in/hspalacios/", target: :_blank do %>
+			    	<%= image_tag "linkedinlogo.png", :class => "linkimage" %>
+		    	<% end %>
+		    </div>
+			</div>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-md-3">
+			<div id="resume">
+				<h2>Resume</h2>
+			</div>
+			<div id="showresume">
+				<div id="close">x</div>
+			</div>
+		</div>
+		<div class="col-md-4" id="name">
+			<h1>Hans-Sebastian Palacios</h1>
+			<h4><strong>Web Developer & Designer</strong></h4>
+		</div>
+		<div class="col-md-3">
+			<h2>Websites &<br> Projects</h2>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-3"></div>
+		<div class="col-md-3">
+			<div id="interests" class="container">
+		    <div class=" center intcenter"><h2>Interests</h2></div>
+		    <div class="field">
+		    	<pre>    UI & UX</pre>
+		    </div>
+		    <div class="field">
+		    	<p>Business Development</p>
+		    </div>
+		    <div class="field">
+		    	<p>Kayaking</p>
+		    </div>
+		    <div class="field">
+		    	<p>Rock Climbing</p>
+		    </div>
+		    <div class="field">
+		    	<p>Marketing</p>
+		    </div>
+			</div>
+		</div>
+		<div class="col-md-3" id="contact">
+				<h2>Contact</h2>
+				<div id="contactbox">
+					<p>hans@hspalacios.com</p>
+				</div>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	<div id="showresume">
+		<div id="close">x</div>
+		<%= image_tag "resume.png" %>
+	</div>
+</div>

@@ -1,0 +1,93 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1, h2, h4 {
+	font-family: 'Ropa Sans', sans-serif;
+}
+h4 {
+	font-weight: 900;
+}
+p, pre {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.row {
+	margin: 50px auto;
+	text-align: center;
+}
+.margintop {
+	margin: 8% auto 0 auto;
+	text-align: center;
+}
+.linkimage {
+	width: 40px;
+}
+.meetupimage {
+	width: 50px;
+}
+#contact {
+	margin-top: 55px;
+}
+#name {
+	height: 100px;
+	margin: 10px;
+}
+#resume {
+	width: 150px;
+	height: 30px;
+  &:hover {
+  	font-size: 16.2px;
+ 		background: url("background.png");
+ 		background-size: 100% 100%;
+ 		background-repeat: no-repeat;
+ 		cursor: pointer;
+	}
+}
+#showresume{
+	border: 1px solid grey;
+	position: fixed;
+	display: block;
+	top: 5%;
+	margin: 0 auto;
+	z-index: 1;
+	color: white;
+	display: none;
+	img {
+		width: 100px;
+		height: 500px;
+	}
+	#close {
+		right: 15px;
+		top: 10px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		position: absolute;
+		cursor: pointer;
+	}
+}
+#contactbox {
+	display: none;
+}
+#links, #skills, #interests {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	.center {  
+		position: absolute; 
+		border-radius: 50%; 
+		top: 55px;
+		left: 65px;
+	}
+	.intcenter {
+		left: 55px;
+	}
+	.field { 
+		width: 80px; 
+		height: 80px; 
+		position: absolute; 
+		display: none;
+	}
+}
+
