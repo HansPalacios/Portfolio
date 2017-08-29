@@ -48,7 +48,7 @@ $(document).ready(function() {
 		var circle_element = $('.field'),
 		    fields = $(this).find(circle_element),
 	      fields_total = fields.length,
-	      radius = 90,
+	      radius = 80,
 	      container = $(this),
 		    container_width = container.width(),
 		    container_height = container.height(),
