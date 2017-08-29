@@ -67,10 +67,10 @@ $(document).ready(function() {
 		    angle += step;
 		});
 		container.mouseover(function(){
-        fields.css("display", "inline-block");
+        fields.addClass("active");
     });
     container.mouseout(function(){
-        fields.css("display", "none");
+        fields.removeClass("active");
     });
     
 	});

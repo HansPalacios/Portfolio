@@ -46,25 +46,34 @@ a {
  		cursor: pointer;
 	}
 }
-#showresume{
-	border: 1px solid grey;
+#showresume {
 	position: fixed;
 	display: block;
 	top: 5%;
+	left: 10%;
 	margin: 0 auto;
-	z-index: 1;
-	color: white;
 	display: none;
-	img {
-		width: 100px;
-		height: 500px;
-	}
+	width: 80%;
+	height: 90%;
+	overflow: scroll;
+	background-color: white;
+	z-index: 2;
+	background: url("resume.png");
+ 	background-size: auto 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
 	#close {
-		right: 15px;
-		top: 10px;
+		width: 100px;
+		margin: 10px auto;
+		origin: auto;
+		text-align: center;
+		background-color: rgba(200,200,200,.3);
 		font-family: 'Ubuntu Condensed', sans-serif;
 		position: absolute;
+		z-index: 3;
 		cursor: pointer;
+		border: none;
+		-webkit-transform: translate(-50%, 0); 
 	}
 }
 #contactbox {
@@ -88,6 +97,9 @@ a {
 		height: 80px; 
 		position: absolute; 
 		display: none;
+	}
+	.active {
+		display: inline-block;
 	}
 }
 
