@@ -18,7 +18,7 @@ a {
 	margin: 50px auto;
 	text-align: center;
 }
-.col-md-3, .col-md-4 {
+.col-md-1, .col-md-2, .col-md-3, .col-md-4 {
 	margin: 0 auto;
 }
 .margintop {
@@ -41,6 +41,10 @@ a {
 #resume {
 	width: 150px;
 	height: 30px;
+	margin-top: 35px;
+	h2 {
+		margin: 0;
+	}
   &:hover {
   	font-size: 16.2px;
  		background: url("background.png");
@@ -82,27 +86,21 @@ a {
 #contactbox {
 	display: none;
 }
-#projects {
-	margin-top: 15px;
-	height: 50px;
-	width: 500px;
-	h2 {
-		margin: 0 0 0 70px;
-		width: 150px;
-		display: inline-block;
-		float: left;
-		cursor: pointer;
-	}
+#projects h2{
+	cursor: pointer;
+	float: right;
+
 }
 #doublearrow {
 	width: 50px;
 	display: none;
-	float: right;
+	margin-top: 20px;
 	}
 #links, #skills, #interests {
 	width: 200px;
 	height: 200px;
 	position: relative;
+	margin-left: 25px;
 	.center {  
 		position: absolute; 
 		border-radius: 50%; 
