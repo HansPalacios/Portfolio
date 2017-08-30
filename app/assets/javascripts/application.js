@@ -32,6 +32,14 @@ $(document).ready(function() {
 			$("#showresume").css("display", "none");
 		});
 
+	$("#projects").mouseover(function(){
+	    $("#doublearrow").css("display", "inline-block");
+		});
+
+	$("#projects").mouseout(function(){
+			$("#doublearrow").css("display", "none");
+		});
+
 	// change inner html of name
 	$( "#name" ).hover(
   function() {
