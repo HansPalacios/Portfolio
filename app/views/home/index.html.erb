@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" data-role="page" id="pageone">
 	<div class="row margintop">
 		<div class="col-md-3"></div>
 		<div class="col-md-3">
@@ -62,10 +62,12 @@
 			<h4><strong>Web Developer & Designer</strong></h4>
 		</div>
 		<div class="col-md-2" id="projects">
-			<h2>Websites &<br> Projects</h2>
+			<a href="#pagetwo" data-transition="slide">
+				<h2>Websites &<br> Projects</h2>
+			</a>
 		</div>
-		<div class="col-md-1">
-			<%= image_tag "doublearrow.png", :id => "doublearrow" %>
+		<div class="col-md-1" id="arrowcolumn">
+				<%= image_tag "doublearrow.png", :id => "doublearrow"%>
 		</div>
 	</div>
 	<div class="row">
@@ -101,4 +103,78 @@
 		</div>
 		<div class="col-md-3"></div>
 	</div>
+</div>
+<div class="container-fluid" data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Websites & Projects</h1>
+  </div>
+  <div class="row" data-role="main" class="ui-content">
+  	<div class="col-md-2">
+	    <a href="#pageone" data-transition="slide" data-direction="reverse">
+	    	<%= image_tag "doublearrow.png", :id => "arrowtofirstpage"%>
+	    </a>
+	  </div>
+    <div class="col-md-9">
+    	<div class="row projectlist bottomborder">
+    		<div class="row">
+    			<h2>DateNight<%= link_to "GitHub/HansPalacios/DateNight" do %>
+	    			<%= image_tag "githublogo.png", :class=> "githublink"%>
+	    		<% end %></h2>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-5">
+    			</div>
+    			<div class="col-md-7">
+    				<p class="row">An app which gives users access to a database of great venues for different types of dates</p>
+    				<ul class="row">
+		    			<li>Built using Ruby on Rails, JavaScript, and SCSS with a 2 week deadline</li>
+		    			<li>Using Google API for maps and easy to access information on venues.</li>
+		    			<li>Integrated the Yelp API for venue ratings and other information.</li>
+		    			<li>Optional memberships for discounts and extra services</li>
+		    		</ul>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="row projectlist bottomborder">
+    		<div class="row">
+    			<h2>Groundwork Detailing<%= link_to "GitHub/HansPalacios/DateNight" do %>
+	    			<%= image_tag "githublogo.png", :class=> "githublink"%>
+	    		<% end %></h2>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-5">
+    			</div>
+    			<div class="col-md-7">
+    				<p class="row">A custom designed website for an auto detailing company in Connecticut</p>
+    				<ul class="row">
+		    			<li>Modern design with an easy user interface in mind</li>
+		    			<li>Built out using Ruby on Rails, Javascript, bootstrap and SCSS</li>
+		    			<li>Worked with client directly and worked through or compromised with multiple design changes</li>
+		    			<li>Used SendGrid for email interface</li>
+		    		</ul>
+    			</div>
+    		</div>
+    	</div>
+    	<div class="row projectlist">
+    		<div class="row">
+    			<h2>Where Next<%= link_to "GitHub/HansPalacios/DateNight" do %>
+	    			<%= image_tag "githublogo.png", :class=> "githublink"%>
+	    		<% end %></h2>
+    		</div>
+    		<div class="row">
+    			<div class="col-md-5">
+    			</div>
+    			<div class="col-md-7">
+    				<p class="row">An easy to use and mobile friendly app for popular clubs and bars in Williamsburg, NY</p>
+    				<ul class="row">
+		    			<li>Group Project, where I built out most of the backend and design, while partner designed the SVG map and functionality</li>
+		    			<li>Designed for an extremely simple user experience, with easy navigation, and minimal pages</li>
+		    			<li>Built using Ruby on Rails, Javascript, SCSS, and Bootstrap </li>
+		    		</ul>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
 </div>
