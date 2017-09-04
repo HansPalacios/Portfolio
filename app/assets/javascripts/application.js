@@ -16,11 +16,12 @@
 $(document).ready(function() {
 
 	// display contact info
-	$("#contact").mouseover(function(){
-        $("#contactbox").css("display", "inline-block");
+	$("#contact").mouseenter(function(){
+        $("#contactbox").stop(true).fadeIn();
+
     });
-	$("#contact").mouseout(function(){
-        $("#contactbox").css("display", "none");
+	$("#contact").mouseleave(function(){
+        $("#contactbox").stop(true).fadeOut();
     });
 	// show resume
 
@@ -32,24 +33,25 @@ $(document).ready(function() {
 			$("#showresume").css("display", "none");
 		});
 
-	$("#projects").mouseover(function(){
-	    $("#doublearrow").css("display", "inline-block");
+	$("#projects").mouseenter(function(){
+	    $("#doublearrow").stop(true).show();
 		});
 
-	$("#projects").mouseout(function(){
-			$("#doublearrow").css("display", "none");
+	$("#projects").mouseleave(function(){
+			$("#doublearrow").stop(true).hide();
 		});
 
 	// change inner html of name
-	$( "#name" ).hover(
-  function() {
-    $( this ).html("<p>A business-minded millennial with a solid foundation in HTML, CSS, JavaScript, and Ruby, and previous experience in sales and management.As well as an avid reader of motivational and self-development literature.</p>");
-  }, function() {
-    $( this ).html(
-    "<h1>Hans-Sebastian Palacios</h1>\r\
-		<h4><strong>Web Developer & Designer</strong></h4>");
-  }
-);
+	$("#togglename").mouseenter(function() {
+    $("#name").stop(true).fadeOut("complete", function() {
+    	$("#bio").stop(true).fadeIn();
+    });
+  });
+  $("#togglename").mouseleave(function() {
+  	$("#bio").stop(true).fadeOut("complete", function() {
+    	$("#name").stop(true).fadeIn();
+    });
+   });
 	
 	// circle formatting and display of skills, interests, and links
 	$(".container").each(function(index) {
@@ -74,11 +76,11 @@ $(document).ready(function() {
 		    });
 		    angle += step;
 		});
-		container.mouseover(function(){
-        fields.addClass("active");
+		container.mouseenter(function(){
+        fields.stop(true).addClass("active");
     });
-    container.mouseout(function(){
-        fields.removeClass("active");
+    container.mouseleave(function(){
+        fields.stop(true).removeClass("active");
     });
     
 	});

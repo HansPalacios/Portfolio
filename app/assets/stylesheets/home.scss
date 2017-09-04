@@ -5,12 +5,12 @@ h1, h2, h4 {
 	font-family: 'Ropa Sans', sans-serif;
 }
 h1, h2, a{
-	color: #034173;
+	color: #00145a;
 }
 h4 {
 	font-weight: 900;
 }
-p, pre {
+p, pre, .projectlist li, a {
 	font-family: 'Ubuntu Condensed', sans-serif;
 }
 a {
@@ -37,10 +37,16 @@ a {
 #contact {
 	margin-top: 72px;
 }
-#name {
+#togglename {
 	height: 100px;
-	margin: 10px;
+		margin: 10px;
+	#bio {
+		// padding-top: 20px;
+		display: none;
+		line-height: 25px;
+	}
 }
+
 #resume {
 	width: 150px;
 	height: 30px;
@@ -145,7 +151,7 @@ a {
 		position: absolute; 
 		border-radius: 50%; 
 		top: 65px;
-		left: 65px;
+		left: 60px;
 	}
 	.intcenter {
 		top: 72px;
@@ -164,4 +170,23 @@ a {
 		display: inline-block;
 	}
 }
+#links:hover {
+	background-image: url("backgroundcolor4.png");
+	background-size: contain;
+	background-position: 0 30%;
+	background-repeat: no-repeat;
+}
+#skills:hover {
+	background-image: url("backgroundcolor.png");
+	background-size: 80%;
+	background-position: 10% 20%;
+	background-repeat: no-repeat;
+}
+#interests:hover {
+	background-image: url("backgroundcolor2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 
