@@ -84,4 +84,12 @@ $(document).ready(function() {
     });
     
 	});
+	$("#datenightimage").click(function(){
+			$("#datenightvideo").css("display", "inline-block");
+			$("#close2").css("display", "inline-block");
+	});
+	$("#close2").click(function(){
+			$("#datenightvideo").css("display", "none");
+			$("#close2").css("display", "none");
+	});
 });
