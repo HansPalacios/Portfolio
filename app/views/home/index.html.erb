@@ -3,7 +3,7 @@
 		<div class="col-md-3"></div>
 		<div class="col-md-3">
 			<div id="skills" class="container">
-		    <div class="center"><h2>Skills</h2></div>
+		    <div class="center"><h3>Skills</h3></div>
 		    <div class="field">
 		    	<p>HTML5</p>
 		    </div>
@@ -26,7 +26,7 @@
 		</div>
 		<div class="col-md-3">
 			<div id="links" class="container">
-		    <div class="center"><h2>Links</h2></div>
+		    <div class="center"><h3>Links</h3></div>
 		    <div class="field">
 		    	<%= link_to "https://www.meetup.com/members/228689923/", target: :_blank do %>
 			    	<%= image_tag "meetuplogo.png", :class => "meetupimage" %>
@@ -50,7 +50,7 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-2">
 			<div id="resume">
-				<h2>Resume</h2>
+				<h3>Resume</h3>
 			</div>
 			<div id="showresume">
 				<button id="close">X</button>
@@ -59,7 +59,7 @@
 		</div>
 		<div class="col-md-4" id="togglename">
 			<div id="name" class="active">
-				<h1>Hans-Sebastian Palacios</h1>
+				<h2>Hans-Sebastian Palacios</h2>
 				<h4><strong>Web Developer & Designer</strong></h4>
 			</div>
 			<div id="bio">
@@ -69,7 +69,7 @@
 
 		<div class="col-md-2" id="projects">
 			<a href="#pagetwo" data-transition="slide">
-				<h2>Websites &<br> Projects</h2>
+				<h3>Websites &<br> Projects</h3>
 		</div>
 		<div class="col-md-1" id="arrowcolumn">
 			<%= image_tag "doublearrow.png", :id => "doublearrow"%>
@@ -80,29 +80,29 @@
 		<div class="col-md-3"></div>
 		<div class="col-md-3">
 			<div id="interests" class="container">
-		    <div class="center intcenter"><h2>Interests</h2></div>
+		    <div class="center intcenter"><h3>Interests</h3></div>
 		    <div class="field">
-		    	<pre class="margintop">         Kayaking</pre>
+		    	<pre class="margintop">               Kayaking</pre>
 		    </div>
 		    <div class="field">
-		    	<pre>         Sailing</pre>
+		    	<pre>                 Sailing</pre>
 		    </div>
 		    <div class="field">
-		    	<p>Rock Climbing</p>
+		    	<pre>   Rock Climbing</pre>
 		    </div>
 		    <div class="field">
-		    	<p class="margintop">Marketing</p>
+		    	<pre class="margintop">Marketing</pre>
 		    </div>
 		    <div class="field">
-		    	<pre>     Business <br> Development</pre>
+		    	<pre>        Business <br>    Development</pre>
 		    </div>
 		    <div class="field">
-		    	<pre><br>           UI & UX</pre>
+		    	<pre><br>                UI & UX</pre>
 		    </div> 
 			</div>
 		</div>
 		<div class="col-md-3" id="contact">
-				<h2>Contact</h2>
+				<h3>Contact</h3>
 				<div id="contactbox">
 					<p>hans@hspalacios.com</p>
 				</div>
@@ -133,11 +133,16 @@
     		<div class="row">
     			<div class="col-md-6">
     				<div class="row">
-	    				<h2>DateNight<%= link_to "https://github.com/HansPalacios/datenight", :target => "_blank" do %>
+	    				<h3>DateNight<%= link_to "https://github.com/HansPalacios/datenight", :target => "_blank" do %>
 		    			<%= image_tag "githublogo.png", :class=> "githublink"%>
-		    			<% end %></h2>
+		    			<% end %></h3>
 		    		</div>
 		    		<p class="row">An app which gives users access to a database of great venues for different types of dates</p>
+				    <div class="row imagerow">
+		    			<div class="col-md-12">
+		    				<div id="datenightimage" class="siteimages"><h4>Play<br>Video</h4></div>
+		    			</div>	
+		    		</div>
 		    	</div>
 		    	<ul class="col-md-6">
 		    			<li>Built using Ruby on Rails, JavaScript, and SCSS with a 2 week deadline</li>
@@ -146,22 +151,22 @@
 		    			<li>Optional memberships for discounts and extra services</li>
 		    		</ul>
     		</div>
-    		<div class="row imagerow">
-    			<div class="col-md-6"></div>
-    			<div class="col-md-6">
-    				<div id="datenightimage"><h4>Play<br>Video</h4></div>
-    			</div>	
-    		</div>
+    		
     	</div>
     	<div class="row projectlist bottomborder">
     		<div class="row">
     			<div class="col-md-6">
     				<div class="row">
-	    				<h2>Groundwork Detailing<%= link_to "https://github.com/HansPalacios/Groundwork", :target => "_blank" do %>
+	    				<h3>Groundwork Detailing<%= link_to "https://github.com/HansPalacios/Groundwork", :target => "_blank" do %>
 			    			<%= image_tag "githublogo.png", :class=> "githublink"%>
-			    		<% end %></h2>
+			    		<% end %></h3>
 		    		</div>
 		    		<p class="row">A custom designed website for an auto detailing company in Connecticut</p>
+		    		<div class="row imagerow">
+    			<div class="col-md-12">
+    				<div id="groundworkimage" class="siteimages"><h4>Play<br>Video</h4></div>
+    			</div>	
+    		</div>
 		    	</div>
 		    	<ul class="col-md-6">
 		    			<li>Modern design with an easy user interface in mind</li>
@@ -170,22 +175,21 @@
 		    			<li>Used SendGrid for email interface</li>
 		    		</ul>
     		</div>
-    		<div class="row imagerow">
-    			<div class="col-md-6"></div>
-    			<div class="col-md-6">
-    				<div id="groundworkimage"><h4>Play<br>Video</h4></div>
-    			</div>	
-    		</div>
     	</div>
     	<div class="row projectlist">
     		<div class="row">
     			<div class="col-md-6">
     				<div class="row">
-	    				<h2>Where Next<%= link_to "https://github.com/HansPalacios/WhereNext", :target => "_blank" do %>
+	    				<h3>Where Next<%= link_to "https://github.com/HansPalacios/WhereNext", :target => "_blank" do %>
 			    			<%= image_tag "githublogo.png", :class=> "githublink"%>
-			    		<% end %></h2>
+			    		<% end %></h3>
 		    		</div>
 		    		<p class="row">An easy to use and mobile friendly app for popular clubs and bars in Williamsburg, NY</p>
+				    <div class="row imagerow">
+		    			<div class="col-md-12">
+		    				<div id="wherenextimage", class="siteimages"><h4>Play<br>Video</h4></div>
+		    			</div>	
+		    		</div>
 		    	</div>
 		    	<ul class="col-md-6">
 		    			<li>Group Project, where I built out most of the backend and design, while partner designed the SVG map and functionality</li>
@@ -193,16 +197,15 @@
 		    			<li>Built using Ruby on Rails, Javascript, SCSS, and Bootstrap </li>
 		    		</ul>
     		</div>
-    		<div class="row imagerow">
-    			<div class="col-md-6"></div>
-    			<div class="col-md-6">
-    				<div id="wherenextimage"><h4>Play<br>Video</h4></div>
-    			</div>	
-    		</div>
+    		
     	</div>
     </div>
     <div class="col-md-1"></div>
   </div>
 </div>
 <div class="close" id="close2"><strong>X</strong></div>
- <%= video_tag(["Hans_Palacios_08_17_2017_DateNight.mov"], :controls => true, :class => "video", :id => "datenightvideo") %>
+ <%= video_tag(["DateNight.mov"], :controls => true, :class => "video", :id => "datenightvideo") %>
+ <div class="close" id="close3"><strong>X</strong></div>
+ <%= video_tag(["GroundworkVideo.mov"], :controls => true, :class => "video", :id => "groundworkvideo") %>
+  <div class="close" id="close4"><strong>X</strong></div>
+ <%= video_tag(["wherenext.mov"], :controls => true, :class => "video", :id => "wherenextvideo") %>

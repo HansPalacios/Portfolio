@@ -84,6 +84,7 @@ $(document).ready(function() {
     });
     
 	});
+
 	$("#datenightimage").click(function(){
 			$("#datenightvideo").css("display", "inline-block");
 			$("#close2").css("display", "inline-block");
@@ -91,5 +92,23 @@ $(document).ready(function() {
 	$("#close2").click(function(){
 			$("#datenightvideo").css("display", "none");
 			$("#close2").css("display", "none");
+	});
+
+	$("#groundworkimage").click(function(){
+			$("#groundworkvideo").css("display", "inline-block");
+			$("#close3").css("display", "inline-block");
+	});
+	$("#close3").click(function(){
+			$("#groundworkvideo").css("display", "none");
+			$("#close3").css("display", "none");
+	});
+
+	$("#wherenextimage").click(function(){
+			$("#wherenextvideo").css("display", "inline-block");
+			$("#close4").css("display", "inline-block");
+	});
+	$("#close4").click(function(){
+			$("#wherenextvideo").css("display", "none");
+			$("#close4").css("display", "none");
 	});
 });
