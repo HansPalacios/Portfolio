@@ -14,7 +14,9 @@ h4 {
 	font-weight: 900;
 }
 p, pre, .projectlist li, a {
-	font-family: 'Ubuntu Condensed', sans-serif;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 13px;
+	font-weight: 800;
 }
 a {
 	text-decoration: none;
@@ -100,9 +102,11 @@ a {
 #contactbox {
 	display: none;
 }
-#projects h2{
+#projects h3{
 	cursor: pointer;
 	float: right;
+	font-size: 17px;
+	margin-top: 25px;
 }
 #doublearrow {
 	height: 100px;
@@ -237,19 +241,24 @@ a {
 	h3 {
 		margin: 0 auto;
 		color: black;
-		
 	}
-	p.row {
-		margin: 20px;
+	p {
+		margin: 15px auto;
+		font-size: 13px;
+		text-align: center;
+		width: 90%;
 	}
 	li, p {
-		text-align: left;
-		font-size: 15px;
-		margin: 2px;
 		padding: 0 10px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		font-weight: 400;
+	}
+	li {
+		font-size: 15px;
+		text-align: left;
 	}
 	ul {
-		margin-top: 120px;
+		margin-top: 100px;
 	}
 	.githublink {
 		width: 25px;
