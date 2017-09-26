@@ -234,9 +234,18 @@ a {
 	padding: 20px;
 	padding-bottom: 80px;
 	.row {
-		width: 100%;
 		text-align: center;
 		margin: 0;
+	}
+	.button {
+		button {
+			font-family: 'Playfair Display SC', serif;
+			width: 200px;
+			margin: 0 auto;
+		}
+		ul {
+			margin-top: 40px;
+		}
 	}
 	h3 {
 		margin: 0 auto;
