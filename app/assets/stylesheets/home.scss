@@ -124,7 +124,7 @@ a {
 	.center {  
 		position: absolute; 
 		border-radius: 50%; 
-		top: 65px;
+		top: 60px;
 		left: 55px;
 	}
 	.intcenter {
@@ -200,9 +200,9 @@ a {
 }
 .video {
 	position: fixed;
-	max-width: 80%;
+	max-width: 60%;
 	top: 10%;
-	left: 10%;
+	left: 20%;
 	z-index: 1;
 	border: 1px solid rgba(0,0,0,.8);
 	border-right: 2px solid rgba(0,0,0,.8);
@@ -213,7 +213,7 @@ a {
 .close {
 	display: none;
 	position: fixed;
-	right: 11%;
+	right: 21%;
 	top: 11%;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	cursor: pointer;
