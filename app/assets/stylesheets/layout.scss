@@ -1,0 +1,27 @@
+*, body {
+	padding: 0;
+	margin: 0;
+}
+h1 {
+		font-family: 'Playfair Display SC', serif;
+
+}
+h2, h3, h4, a {
+	font-family: 'Droid Sans', sans-serif;
+	color: black;
+}
+h4 {
+	font-weight: 900;
+}
+p, pre, .projectlist li, a {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 800;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#desktop {
+	display: none;
+}
