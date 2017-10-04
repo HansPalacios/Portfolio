@@ -5,9 +5,9 @@
 	margin: 50px auto;
 	text-align: center;
 }
-.col-md-1, .col-md-2, .col-md-3, .col-md-4 {
-	margin: 0 auto;
-}
+// .col-md-1, .col-md-2, .col-md-3, .col-md-4 {
+// 	margin: 0 auto;
+// }
 .margintop {
 	margin: 3% auto 0 auto;
 	text-align: center;
@@ -145,7 +145,8 @@
 
 // **********Second page**********
 .imagerow {
-	height: 110px;
+	text-align: center;
+	height: 150px;
 	padding: 10px;
 }
 #datenightimage {
@@ -161,17 +162,19 @@
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100px;
-	width: auto;
+	height: 150px;
+	width: 250px;
+	margin: 0 auto;
+	// margin-top: -20px;
 	padding: 0;
-	padding-top: 15px;
 	h4 {
+		margin-top:50px;
 		display: none;
 		font-shadow: 1px 1px white;
 	}
 	&:hover {
 		cursor: pointer;
-		height: 105px;
+		width: 260px;
 		h4 {
 			display: inline-block;
 		}
@@ -216,16 +219,6 @@
 		text-align: center;
 		margin: 0;
 	}
-	.button {
-		button {
-			font-family: 'Playfair Display SC', serif;
-			width: 200px;
-			margin: 0 auto;
-		}
-		ul {
-			margin-top: 40px;
-		}
-	}
 	h3 {
 		margin: 0 auto;
 		color: black;
@@ -246,6 +239,7 @@
 		text-align: left;
 	}
 	ul {
+		margin: 0 auto;
 		margin-top: 100px;
 	}
 	.githublink {

@@ -1,9 +1,9 @@
 <div class="row" id="heading">
 	<div class="col-md-12">
-		<div class="row">
-			<div class="center">
-				<h1>Hans-Sebastian Palacios</h1>
-			</div>		
+		<div class="row center">
+<!-- 			<div class="">
+ -->				<h1>Hans-Sebastian Palacios</h1>
+			<!-- </div>		 -->
 		</div>
 		<div class="row">
 				<h2>Web Developer | Designer</h2>
@@ -12,7 +12,7 @@
 			<p>A business-minded full stack web developer with experience in sales and management. Who is constantly learning new development languages, and enjoys working with new API's when possible.</p>
 		</div>
 		<div class="row" id="techskills">
-			<p>Confident in Ruby on Rails & Sinatra, SQL, Javascript(Vanilla and JQuery),HTML, CSS & SCSS</p>
+			<p>Fluent in Ruby on Rails & Sinatra, SQL, Javascript(Vanilla and JQuery),HTML, CSS & SCSS</p>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
@@ -21,87 +21,81 @@
 		</div>
 	</div>
 </div>
-<div class="row" id="Projects">
+<div class="row" id="projects">
 	<div class="col-md-12">
     <h1>Websites & Projects</h1>
-   	<div class="row projectlist bottomborder">
-   		<div class="row">
-   			<div class="col-md-6">
-   				<div class="row">
-    				<h3>DateNight<%= link_to "https://github.com/HansPalacios/datenight", :target => "_blank" do %>
-	    			<%= image_tag "githublogo.png", :class=> "githublink"%>
-	    			<% end %></h3>
-	    		</div>
-	    		<div class="row">
-		    		<p>An app which gives users access to a database of great venues for different types of dates</p>
-		    	</div>
-			    <div class="row imagerow">
-	    			<div class="col-md-12">
-	    				<div id="datenightimage" class="siteimages"><h4>Play<br>Video</h4></div>
-	    			</div>	
-	    		</div>
-	    	</div>
-	    	<ul class="col-md-6">
-	    			<li>Built using Ruby on Rails, JavaScript, and SCSS with a 2 week deadline</li>
-	    			<li>Using Google API for maps and easy to access information on venues.</li>
-	    			<li>Integrated the Yelp API for venue ratings and other information.</li>
-	    			<li>Optional memberships for discounts and extra services</li>
-	    		</ul>
-   		</div>
-   		
-   	</div>
-   	<div class="row projectlist bottomborder">
-   		<div class="row button">
-   			<div class="col-md-6">
-   				<div class="row">
-    				<h3>Groundwork Detailing<%= link_to "https://github.com/HansPalacios/Groundwork", :target => "_blank" do %>
-		    			<%= image_tag "githublogo.png", :class=> "githublink"%>
-		    		<% end %></h3>
-	    		</div>
-	    		<div class="row">
-		    		<p>A custom designed website for an auto detailing company in Connecticut</p>
-		    	</div>
-	    		<div class="row imagerow">
-	    			<div class="col-md-12">
-	    				<div id="groundworkimage" class="siteimages"><h4>Play<br>Video</h4></div>
-	    			</div>	
-	    		</div>
-			   </div>
-			   <div class="col-md-6">
-			   	<%= link_to "https://www.groundworkdetailing.com", :target => "_blank" do %>
-			   		<button>Go to site</button>
-			   	<% end %>
-			   	<ul>
-			   		<li>Modern design with an easy user interface in mind</li>
-		    		<li>Built out using Ruby on Rails, Javascript, bootstrap and SCSS</li>
-		    		<li>Worked with client directly and worked through or compromised with multiple design changes</li>
-		    		<li>Used SendGrid for email interface</li>
-		    	</ul>
-	    	</div>
-	    </div>
-   	</div>
    	<div class="row projectlist">
-   		<div class="row">
-   			<div class="col-md-6">
-   				<div class="row">
-    				<h3>Where Next<%= link_to "https://github.com/HansPalacios/WhereNext", :target => "_blank" do %>
-		    			<%= image_tag "githublogo.png", :class=> "githublink"%>
-		    		<% end %></h3>
-	    		</div>
-	    		<div class="row">
-		    		<p>An easy to use and mobile friendly app for popular clubs and bars in Williamsburg, NY</p>
-		    	</div>
-			    <div class="row imagerow">
-	    			<div class="col-md-12">
-	    				<div id="wherenextimage", class="siteimages"><h4>Play<br>Video</h4></div>
-	    			</div>	
-	    		</div>
+  		<div class="col-md-2"></div>
+  		<div class="col-md-4">
+  			<div class="row">
+   				<h3>DateNight<%= link_to "https://github.com/HansPalacios/datenight", :target => "_blank" do %><%= image_tag "githublogo.png", :class=> "githublink"%><% end %></h3>
+	   		</div>
+	   		<div class="row">
+	    		<p>An app which gives users access to a database of great venues for different types of dates</p>
 	    	</div>
-	    	<ul class="col-md-6">
+	    	<ul class="row">
+	   			<li>Built using Ruby on Rails, JavaScript, and SCSS with a 2 week deadline</li>
+	   			<li>Using Google API for maps and easy to access information on venues.</li>
+	   			<li>Integrated the Yelp API for venue ratings and other information.</li>
+	   			<li>Optional memberships for discounts and extra services</li>
+	   		</ul>
+	   	</div>
+	   	<div class="col-md-4">
+		   	<div class="row imagerow">
+	   				<div id="datenightimage" class="siteimages"><h4>Play<br>Video</h4></div>
+	   		</div>
+	   	</div>
+   		<div class="col-md-2"></div>
+   	</div>
+   	<hr>
+   	<div class="row projectlist">
+   		<div class="col-md-2"></div>
+  		<div class="col-md-4">
+  			<div class="row">
+    			<h3>Groundwork Detailing<%= link_to "https://github.com/HansPalacios/Groundwork", :target => "_blank" do %><%= image_tag "githublogo.png", :class=> "githublink"%><% end %></h3>
+	    	</div>
+	    	<div class="row">
+		    	<p>A custom designed website for an auto detailing company in Connecticut</p>
+		    </div>
+		    <ul class="row">
+			  		<li>Modern design with an easy user interface in mind</li>
+		    	<li>Built out using Ruby on Rails, Javascript, bootstrap and SCSS</li>
+		    	<li>Worked with client directly and worked through or compromised with multiple design changes</li>
+		    	<li>Used SendGrid for email interface</li>
+		    </ul>
+		  </div>
+	   	<div class="col-md-4">
+	   		<div class="row gotosite">
+				  <%= link_to "https://www.groundworkdetailing.com", :target => "_blank" do %>
+						<button>Go to site</button>
+					<% end %>
+				</div>
+		  	<div class="row imagerow">
+	   			<div id="groundworkimage" class="siteimages"><h4>Play<br>Video</h4></div>
+	    	</div>	
+	    </div>
+   		<div class="col-md-2"></div>
+   	</div>
+   	<hr>
+   	<div class="row projectlist">
+   		<div class="col-md-2"></div>
+  		<div class="col-md-4">
+  			<div class="row">
+    			<h3>Where Next<%= link_to "https://github.com/HansPalacios/WhereNext", :target => "_blank" do %><%= image_tag "githublogo.png", :class=> "githublink"%><% end %></h3>
+	    	</div>
+	    	<div class="row">
+		    	<p>An easy to use and mobile friendly app for popular clubs and bars in Williamsburg, NY</p>
+		    </div>
+		    <ul class="row">
     			<li>Group Project, where I built out most of the backend and design, while partner designed the SVG map and functionality</li>
     			<li>Designed for an extremely simple user experience, with easy navigation, and minimal pages</li>
     			<li>Built using Ruby on Rails, Javascript, SCSS, and Bootstrap </li>
     		</ul>
-  		</div>
-  	</div>
+    	</div>
+		  <div class="col-md-4">
+		  	<div class="row imagerow">
+    			<div id="wherenextimage", class="siteimages"><h4>Play<br>Video</h4></div>
+    		</div>
+    	</div>
+    	<div class="col-md-2"></div>
 </div>

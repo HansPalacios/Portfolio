@@ -2,18 +2,17 @@ html {
 	height: 100%;
 }
 body {
-	min-height: 100%;
+	height: 100%;
 	margin: 0;
 	position: relative;
 }
 #mobile {
 	position: relative;
-	height: 100%;
+	min-height: 100%;
 	margin: 0;
 	padding: 0;
-	.row {
-		margin: 0;
-	}
+	text-align: center;
+	
 	#heading {
 		background-image: url('ice.jpg');
 		background-size: cover;
@@ -29,6 +28,7 @@ body {
 			h1 {
 				font-weight: 400;
 				font-size: 50px;
+				margin: 0 auto;
 			}
 		}
 		h2 {
@@ -76,33 +76,76 @@ body {
 		}
 	}
 	#projects {
-		background-image: url('ice2.jpg');
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-attachment: fixed;
-		position: relative;
-		height: 100%;
-		margin: 0;
-		h1 {
+		// background-image: url('ice2.jpg');
+		// background-size: cover;
+		// background-repeat: no-repeat;
+		// background-position: center;
+		// background-attachment: fixed;
+		// position: relative;
+		// height: 100%;
+		// margin: 0;
+		hr {
+			width: 80%;
 			margin: 0 auto;
 		}
-		.arrow {
-		  -moz-animation: bounce 2s infinite;
-		  -webkit-animation: bounce 2s infinite;
-		  animation: bounce 2s infinite;
-		  height: 50px;
+		h1 {
+			margin: 0 auto;
+			height: 100px;
 		}
-		@keyframes bounce {
-		  0%, 20%, 50%, 80%, 100% {
-		    transform: translateY(0);
-		  }
-		  40% {
-		    transform: translateY(-30px);
-		  }
-		  60% {
-		    transform: translateY(-15px);
-		  }
+		.gotosite {
+			a, button {
+				height: 20px;
+				width: 200px;
+				margin: 0 auto;
+			}
+			a {
+				margin-top: 40px;
+			}
+		}
+		 
+		.col-md-5 {
+			text-align: center;
+			ul {
+				margin: 0 auto;
+			}
 		}
 	}
+.imagerow {
+	text-align: center;
+	height: 150px;
+	padding: 10px;
+	position: relative;
+	bottom: -30px;
+}
+#datenightimage {
+	background-image: url("datenight.png");
+}
+#groundworkimage {
+	background-image: url("groundwork.png");
+}
+#wherenextimage {
+	background-image: url("wherenext.png");
+}
+.siteimages {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 250px;
+	margin: 0 auto;
+	
+	padding: 0;
+	h4 {
+		margin-top:50px;
+		display: none;
+		font-shadow: 1px 1px white;
+	}
+	&:hover {
+		cursor: pointer;
+		width: 260px;
+		h4 {
+			display: inline-block;
+		}
+	}
+}
 }
