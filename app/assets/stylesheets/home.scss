@@ -271,14 +271,14 @@ a {
 				padding: 0;
 				padding-top: 1px;
 				margin: 0 auto;
+				background-color: rgba(250,250,250,.5);
+				border: none;
+				&:hover {
+			  	background-color: rgba(250,250,250,.7);
+			 		cursor: pointer;
+				}
 			}
-		  &:hover {
-		  	font-size: 16.2px;
-		 		background: url("background.png");
-		 		background-size: 100% 100%;
-		 		background-repeat: no-repeat;
-		 		cursor: pointer;
-			}
+		  
 		}
 		#showresume {
 			position: fixed;
