@@ -1,252 +1,92 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.row {
-	margin: 50px auto;
-	text-align: center;
-}
+
 // .col-md-1, .col-md-2, .col-md-3, .col-md-4 {
 // 	margin: 0 auto;
 // }
-.margintop {
-	margin: 3% auto 0 auto;
-	text-align: center;
-}
-.linkimage {
-	width: 40px;
-}
-.meetupimage {
-	width: 50px;
-}
-#contact {
-	margin-top: 72px;
-}
-#togglename {
-	height: 100px;
-		margin: 10px;
-	#bio {
-		background-size:  90% 90%;
-		background-position: center;
-		background-repeat: no-repeat;
-		display: none;
-		line-height: 25px;
-	}
-}
-#resume {
-	width: 150px;
-	height: 30px;
-	margin-top: 35px;
-	h2 {
-		margin: 0;
-	}
-  &:hover {
-  	font-size: 16.2px;
- 		background: url("background.png");
- 		background-size: 100% 100%;
- 		background-repeat: no-repeat;
- 		cursor: pointer;
-	}
-}
-#showresume {
-	position: fixed;
-	top: 0;
-	left: 0;
-	display: none;
-	width: 100%;
-	height: 100%;
-	overflow: scroll;
-	background-color: rgba(0,0,0,.9);
-	z-index: 2;
- img {
- 	margin-bottom: 20px;
- 	height: 90%;
- 	width: auto;
- }
-	#close {
-		margin-left: 80%;
-		margin-top: 2%;
-		color: white;
-		font-size: 18px;
-		width: 20px;
-		height: 40px;
-		text-align: center;
-		background-color: rgba(200,200,200,0);
-		font-family: 'Ubuntu Condensed', sans-serif;
-		cursor: pointer;
-		border: none;
-		z-index: 3;
-	}
-}
+// .margintop {
+// 	margin: 3% auto 0 auto;
+// 	text-align: center;
+// }
 
-#contactbox {
-	display: none;
-}
-#projects h3{
-	cursor: pointer;
-	float: right;
-	font-size: 17px;
-	margin-top: 25px;
-}
-#doublearrow {
-	height: 100px;
-	display: none;
-	margin-right: 20px;
-	position: absolute;
-	right: 2%;
-	}
+// #togglename {
+// 	height: 100px;
+// 		margin: 10px;
+// 	#bio {
+// 		background-size:  90% 90%;
+// 		background-position: center;
+// 		background-repeat: no-repeat;
+// 		display: none;
+// 		line-height: 25px;
+// 	}
+// }
+// #resume {
+// 	width: 150px;
+// 	height: 30px;
+// 	margin-top: 35px;
+// 	h2 {
+// 		margin: 0;
+// 	}
+//   &:hover {
+//   	font-size: 16.2px;
+//  		background: url("background.png");
+//  		background-size: 100% 100%;
+//  		background-repeat: no-repeat;
+//  		cursor: pointer;
+// 	}
+// }
+// #showresume {
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	display: none;
+// 	width: 100%;
+// 	height: 100%;
+// 	overflow: scroll;
+// 	background-color: rgba(0,0,0,.9);
+// 	z-index: 2;
+//  img {
+//  	margin-bottom: 20px;
+//  	height: 90%;
+//  	width: auto;
+//  }
+// 	#close {
+// 		margin-left: 80%;
+// 		margin-top: 2%;
+// 		color: white;
+// 		font-size: 18px;
+// 		width: 20px;
+// 		height: 40px;
+// 		text-align: center;
+// 		background-color: rgba(200,200,200,0);
+// 		font-family: 'Ubuntu Condensed', sans-serif;
+// 		cursor: pointer;
+// 		border: none;
+// 		z-index: 3;
+// 	}
+// }
 
-#links, #skills, #interests {
-	width: 200px;
-	height: 200px;
-	position: relative;
-	margin-left: 25px;
-	.center {  
-		position: absolute; 
-		border-radius: 50%; 
-		top: 60px;
-		left: 55px;
-	}
-	.intcenter {
-		top: 72px;
-		left: 60px;
-	}
-	.field { 
-		width: 80px; 
-		height: 60px; 
-		position: absolute; 
-		display: none;
-		.margintop {
-			margin-top: 25px;
-		}
-	}
-	.active {
-		display: inline-block;
-	}
-}
-#links:hover {
-	background-image: url("backgroundcolor4.png");
-	background-size: contain;
-	background-position: 0 30%;
-	background-repeat: no-repeat;
-}
-#skills:hover {
-	background-image: url("backgroundcolor.png");
-	background-size: 80%;
-	background-position: 10% 20%;
-	background-repeat: no-repeat;
-}
-#interests:hover {
-	background-image: url("backgroundcolor2.png");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
+
+// #projects h3{
+// 	cursor: pointer;
+// 	float: right;
+// 	font-size: 17px;
+// 	margin-top: 25px;
+// }
+
+
+// }
+
 
 
 // **********Second page**********
-.imagerow {
-	text-align: center;
-	height: 150px;
-	padding: 10px;
-}
-#datenightimage {
-	background-image: url("datenight.png");
-}
-#groundworkimage {
-	background-image: url("groundwork.png");
-}
-#wherenextimage {
-	background-image: url("wherenext.png");
-}
-.siteimages {
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 150px;
-	width: 250px;
-	margin: 0 auto;
-	// margin-top: -20px;
-	padding: 0;
-	h4 {
-		margin-top:50px;
-		display: none;
-		font-shadow: 1px 1px white;
-	}
-	&:hover {
-		cursor: pointer;
-		width: 260px;
-		h4 {
-			display: inline-block;
-		}
-	}
-}
-.video {
-	position: fixed;
-	max-width: 60%;
-	top: 10%;
-	left: 20%;
-	z-index: 1;
-	border: 1px solid rgba(0,0,0,.8);
-	border-right: 2px solid rgba(0,0,0,.8);
-}
-#datenightvideo, #groundworkvideo, #wherenextvideo {
-	display: none;
-}
-.close {
-	display: none;
-	position: fixed;
-	right: 21%;
-	top: 11%;
-	font-family: 'Ubuntu Condensed', sans-serif;
-	cursor: pointer;
-	z-index: 2;
-}
-#arrowtofirstpage {
-	height: 100px;
-	position: fixed;
-	left: 0;
-	top: 40%;
-	transform: scaleX(-1);
-}	
-.bottomborder {
-	border-bottom: 1px solid black;
-}
-.projectlist {
-	text-align: center;
-	padding: 20px;
-	padding-bottom: 80px;
-	.row {
-		text-align: center;
-		margin: 0;
-	}
-	h3 {
-		margin: 0 auto;
-		color: black;
-	}
-	p {
-		margin: 15px auto;
-		font-size: 13px;
-		text-align: center;
-		width: 90%;
-	}
-	li, p {
-		padding: 0 10px;
-		font-family: 'Ubuntu Condensed', sans-serif;
-		font-weight: 400;
-	}
-	li {
-		font-size: 15px;
-		text-align: left;
-	}
-	ul {
-		margin: 0 auto;
-		margin-top: 100px;
-	}
-	.githublink {
-		width: 25px;
-		margin-left: 20px;
-	}
-}
+
+
+// .bottomborder {
+// 	border-bottom: 1px solid black;
+// }
+
 // @media only screen and (max-width: 768px) {
 
 // }

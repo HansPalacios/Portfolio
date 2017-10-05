@@ -1,10 +1,15 @@
 html {
 	height: 100%;
+	background-color: white;
 }
 body {
 	height: 100%;
 	margin: 0;
 	position: relative;
+}
+.row {
+	margin: 0 auto;
+	text-align: center;
 }
 #mobile {
 	position: relative;
@@ -12,7 +17,6 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	
 	#heading {
 		background-image: url('ice.jpg');
 		background-size: cover;
@@ -76,14 +80,7 @@ body {
 		}
 	}
 	#projects {
-		// background-image: url('ice2.jpg');
-		// background-size: cover;
-		// background-repeat: no-repeat;
-		// background-position: center;
-		// background-attachment: fixed;
-		// position: relative;
-		// height: 100%;
-		// margin: 0;
+		padding-bottom: 100px;
 		hr {
 			width: 80%;
 			margin: 0 auto;
@@ -91,8 +88,10 @@ body {
 		h1 {
 			margin: 0 auto;
 			height: 100px;
+			padding-top: 50px;
 		}
 		.gotosite {
+			height: 100px;
 			a, button {
 				height: 20px;
 				width: 200px;
@@ -110,12 +109,101 @@ body {
 			}
 		}
 	}
+	#contact {
+		background-image: url('ice2.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		position: relative;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		text-align: center;
+		h2 {
+			width: 100%;
+			margin: 0;
+			margin-bottom: 50px;
+			padding: 50px 0;
+			background-color: rgba(250,250,250,.6);
+		}
+		.row {
+			text-align: center;
+		}
+		h3 {
+			margin: 20px auto;
+			text-align: center;
+		}
+		#links {
+			width: 400px;
+			text-align: center;
+			margin: 0 auto;
+			.row {
+				margin: 20px auto;
+				text-align: center;
+			}
+			.linkimage {
+				width: 40px;
+				margin: 20px 20px;
+			}
+			.meetupimage {
+				width: 50px;
+				margin: 15px 20px;
+			}
+			
+		}
+		#resume {
+			width: 200px;
+			height: 25px;
+			margin: 20px auto;
+			button {
+				padding: 0;
+				padding-top: 1px;
+				margin: 0 auto;
+			}
+		  &:hover {
+		  	font-size: 16.2px;
+		 		background: url("background.png");
+		 		background-size: 100% 100%;
+		 		background-repeat: no-repeat;
+		 		cursor: pointer;
+			}
+		}
+		#showresume {
+			position: fixed;
+			top: 0;
+			left: 0;
+			display: none;
+			width: 100%;
+			height: 100%;
+			overflow: scroll;
+			background-color: rgba(0,0,0,.9);
+			z-index: 2;
+		 img {
+		 	margin-bottom: 20px;
+		 	height: 90%;
+		 	width: auto;
+		 }
+			#close {
+				margin-left: 80%;
+				margin-top: 2%;
+				color: white;
+				font-size: 18px;
+				width: 20px;
+				height: 40px;
+				text-align: center;
+				background-color: rgba(200,200,200,0);
+				font-family: 'Ubuntu Condensed', sans-serif;
+				cursor: pointer;
+				border: none;
+				z-index: 3;
+			}
+		}
+	}
 .imagerow {
 	text-align: center;
 	height: 150px;
 	padding: 10px;
-	position: relative;
-	bottom: -30px;
 }
 #datenightimage {
 	background-image: url("datenight.png");
@@ -146,6 +234,63 @@ body {
 		h4 {
 			display: inline-block;
 		}
+	}
+}
+.video {
+	position: fixed;
+	max-width: 60%;
+	top: 10%;
+	left: 20%;
+	z-index: 1;
+	border: 1px solid rgba(0,0,0,.8);
+	border-right: 2px solid rgba(0,0,0,.8);
+}
+#datenightvideo, #groundworkvideo, #wherenextvideo {
+	display: none;
+}
+.close {
+	display: none;
+	position: fixed;
+	right: 21%;
+	top: 11%;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	cursor: pointer;
+	z-index: 2;
+}
+.projectlist {
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 50px;
+	.row {
+		text-align: center;
+		margin: 0;
+	}
+	h3 {
+		margin: 0 auto;
+		color: black;
+	}
+	p {
+		margin: 15px auto;
+		font-size: 13px;
+		text-align: center;
+		width: 90%;
+	}
+	li, p {
+		padding: 0 10px;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		font-weight: 400;
+	}
+	li {
+		font-size: 15px;
+		text-align: left;
+	}
+	ul {
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+	.githublink {
+		width: 25px;
+		margin-left: 20px;
 	}
 }
 }
