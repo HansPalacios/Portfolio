@@ -15,11 +15,13 @@
   </head>
 
   <body>
-  <div id="desktop">
+
+  <div class="container-fluid" id="home">
     <%= yield %>
+    <%= render '/layouts/videos' %>
   </div>
-   <div class="container-fluid" id="mobile">
-    <%= render '/layouts/mobile' %>
-  </div>
+
+  
+
   </body>
 </html>
