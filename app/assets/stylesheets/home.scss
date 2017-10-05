@@ -1,27 +1,51 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*, body {
+	padding: 0;
+	margin: 0;
+}
 html {
 	height: 100%;
 }
 body {
 	height: 100%;
-	margin: 0;
 	position: relative;
+}
+h1 {
+		font-family: 'Playfair Display SC', serif;
+}
+h2, h3, h4, h5, h6, a, button, li, p, pre {
+	font-family: 'Droid Sans', sans-serif;
+	color: black;
+}
+h4 {
+	font-weight: 900;
+	display: inline-block;
+}
+p, pre, .projectlist li, a {
+	font-size: 13px;
+	font-weight: 800;
+}
+a {
+	text-decoration: none;
+	color: black;
 }
 .row {
 	margin: 0 auto;
 	text-align: center;
 }
-h2, h3, h4, h5, h6, li, p, a, button {
-	font-family: 'Droid Sans', sans-serif;
-}
+
 #home {
 	position: relative;
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
 	text-align: center;
+
+
+// First box - Name and Bio
+
 	#heading {
 		background-image: url('ice.jpg');
 		background-size: cover;
@@ -82,6 +106,10 @@ h2, h3, h4, h5, h6, li, p, a, button {
 		  }
 		}
 	}
+
+
+// Second box - Sites and Projects
+
 	#projects {
 		padding-bottom: 100px;
 		hr {
@@ -106,14 +134,89 @@ h2, h3, h4, h5, h6, li, p, a, button {
 				margin-top: 40px;
 			}
 		}
-		 
+		.projectlist {
+			text-align: center;
+			padding: 20px;
+			padding-bottom: 50px;
+			.row {
+				text-align: center;
+				margin: 0;
+			}
+			h3 {
+				margin: 0 auto;
+				color: black;
+			}
+			p {
+				margin: 15px auto;
+				font-size: 13px;
+				text-align: center;
+				width: 90%;
+			}
+			li, p {
+				padding: 0 10px;
+				font-weight: 400;
+			}
+			li {
+				font-size: 15px;
+				text-align: left;
+			}
+			ul {
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+			.githublink {
+				width: 25px;
+				margin-left: 20px;
+			}
+		}
 		.col-md-5 {
 			text-align: center;
 			ul {
 				margin: 0 auto;
 			}
 		}
+		.imagerow {
+			text-align: center;
+			height: 150px;
+			padding: 10px;
+		}
+		#datenightimage {
+			background-image: url("datenight.png");
+		}
+		#groundworkimage {
+			background-image: url("groundwork.png");
+		}
+		#wherenextimage {
+			background-image: url("wherenext.png");
+		}
+		.siteimages {
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+			height: 150px;
+			width: 250px;
+			margin: 0 auto;
+			
+			padding: 0;
+			h4 {
+				margin-top:50px;
+				display: none;
+				font-shadow: 1px 1px white;
+			}
+			&:hover {
+				cursor: pointer;
+				width: 260px;
+				h4 {
+					display: inline-block;
+				}
+			}
+		}
 	}
+		
+
+
+// Third box - Contact & Links
+
 	#contact {
 		background-image: url('ice2.jpg');
 		background-size: cover;
@@ -200,46 +303,10 @@ h2, h3, h4, h5, h6, li, p, a, button {
 				height: 40px;
 				text-align: center;
 				background-color: rgba(200,200,200,0);
-				// font-family: 'Ubuntu Condensed', sans-serif;
 				cursor: pointer;
 				border: none;
 				z-index: 3;
 			}
-		}
-	}
-.imagerow {
-	text-align: center;
-	height: 150px;
-	padding: 10px;
-}
-#datenightimage {
-	background-image: url("datenight.png");
-}
-#groundworkimage {
-	background-image: url("groundwork.png");
-}
-#wherenextimage {
-	background-image: url("wherenext.png");
-}
-.siteimages {
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 150px;
-	width: 250px;
-	margin: 0 auto;
-	
-	padding: 0;
-	h4 {
-		margin-top:50px;
-		display: none;
-		font-shadow: 1px 1px white;
-	}
-	&:hover {
-		cursor: pointer;
-		width: 260px;
-		h4 {
-			display: inline-block;
 		}
 	}
 }
@@ -260,44 +327,6 @@ h2, h3, h4, h5, h6, li, p, a, button {
 	position: fixed;
 	right: 21%;
 	top: 11%;
-	// font-family: 'Ubuntu Condensed', sans-serif;
 	cursor: pointer;
 	z-index: 2;
-}
-.projectlist {
-	text-align: center;
-	padding: 20px;
-	padding-bottom: 50px;
-	.row {
-		text-align: center;
-		margin: 0;
-	}
-	h3 {
-		margin: 0 auto;
-		color: black;
-	}
-	p {
-		margin: 15px auto;
-		font-size: 13px;
-		text-align: center;
-		width: 90%;
-	}
-	li, p {
-		padding: 0 10px;
-		// font-family: 'Ubuntu Condensed', sans-serif;
-		font-weight: 400;
-	}
-	li {
-		font-size: 15px;
-		text-align: left;
-	}
-	ul {
-		margin: 0 auto;
-		margin-top: 20px;
-	}
-	.githublink {
-		width: 25px;
-		margin-left: 20px;
-	}
-}
 }
