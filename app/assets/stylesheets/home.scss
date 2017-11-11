@@ -307,21 +307,29 @@ a {
 			
 		}
 		#resume {
-			width: 200px;
 			height: 25px;
-			margin: 20px auto;
+			margin: 0 auto;
+			width: 300px;
+			position: relative;
 			button {
 				padding: 0;
 				padding-top: 1px;
 				margin: 0 auto;
 				background-color: rgba(250,250,250,1);
 				border: none;
+				width: 200px;
 				&:hover {
 			  	background-color: rgba(250,250,250,.7);
 			 		cursor: pointer;
 				}
 			}
-		  
+			a {
+				position: absolute;
+				right: 0;
+				#downloadicon {
+		  		height: 20px;
+		  	}
+			}
 		}
 		#showresume {
 			position: fixed;
