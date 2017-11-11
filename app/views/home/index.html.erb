@@ -6,11 +6,15 @@
 		<div class="row">
 				<h2>Web Developer | Designer</h2>
 			</div>
-		<div class="row" id="bio">
-			<p>A business-minded full stack web developer with experience in sales and management. Who is constantly learning new programming languages, and enjoys working with new API's when possible.</p>
+		<div class="row bio">
+			<p>A business-oriented full stack web developer with experience in sales and management. </p>
 		</div>
-		<div class="row" id="techskills">
-			<p>Fluent in Ruby (Rails & Sinatra), SQL, Javascript (Vanilla and JQuery),  CSS (including SCSS), and HTML</p>
+		<div class="row bio">
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<p class="row"><em>“Your reputation is more important than your paycheck, and your integrity is worth more than your career.”</em></p>
+				<pre>-  Ryan Freitas</pre>
+			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
@@ -19,9 +23,36 @@
 		</div>
 	</div>
 </div>
+
+<div id="techskills">
+	<div class="row">
+		<h2 class="col-md-12">Technical Skills & Experience</h2>
+	</div>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<ul class="col-md-4">
+			<li>Ruby (Rails & Sinatra)</li>
+			<li>SQL</li>
+			<li>Javascript (Vanilla and JQuery)</li>
+			<li>CSS & SCSS</li>
+			<li>HTML</li>
+		</ul>
+		<ul class="col-md-4">
+			<li>Instagram integration into website</li>
+			<li>Google Maps API</li>
+			<li>Soundcloud API</li>
+			<li>Zapier.com</li>
+		</ul>
+		<div class="col-md-2"></div>
+	</div>
+</div>
+
+
+
+
 <div class="row" id="projects">
 	<div class="col-md-12">
-    <h1>Websites & Projects</h1>
+    <h2>Websites & Projects</h2>
    	<div class="row projectlist">
   		<div class="col-md-2"></div>
   		<div class="col-md-4">
@@ -35,7 +66,6 @@
 		    	<ul>
 		   			<li>Built using Ruby on Rails, JavaScript, and SCSS with a 2 week deadline</li>
 		   			<li>Using Google API for maps and easy to access information on venues.</li>
-		   			<li>Integrated the Yelp API for venue ratings and other information.</li>
 		   			<li>Optional memberships for discounts and extra services</li>
 		   		</ul>
 		   	</div>
@@ -61,9 +91,10 @@
 		    <div class="row">
 		    	<ul>
 			  		<li>Modern design with an easy user interface in mind</li>
-		    		<li>Built out using Ruby on Rails, Javascript, bootstrap and SCSS</li>
+		    		<li>Built out using Ruby on Rails, SQL, Javascript, bootstrap and SCSS</li>
 		    		<li>Worked with client directly and worked through or compromised with multiple design changes</li>
-		    		<li>Used SendGrid for email interface</li>
+		    		<li>Embedded images from Instagram using Instafeed</li>
+		    		<li>Admin Site with the ability to edit all textboxes, including pricing, contact information, and mission statement</li>
 		    	</ul>
 		    </div>
 		  </div>
@@ -109,11 +140,11 @@
 </div>
 <div class="row" id="contact">
 	<div class="col-md-12">
-		<h1>Contact & Links</h1>
+		<h2>Contact & Links</h2>
 		<div class="row">
 			<div id="links">
 				<%= link_to "https://github.com/HansPalacios", target: :_blank do %>
-		    	<%= image_tag "githublogo.png", :class => "linkimage" %>
+		    	<%= image_tag "whitegithub.png", :class => "linkimage" %>
 		   	<% end %>
 				<%= link_to "https://www.linkedin.com/in/hspalacios/", target: :_blank do %>
 		    	<%= image_tag "linkedinlogo.png", :class => "linkimage" %>
