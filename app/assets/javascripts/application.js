@@ -25,7 +25,7 @@ $(document).ready(function() {
     });
 	// show resume
 
-	$("#resume").click(function(){
+	$("#openresume").click(function(){
 	    $("#showresume").css("display", "inline-block");
 		});
 
