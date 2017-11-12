@@ -289,7 +289,7 @@ a {
 			font-weight: 400;
 		}
 		#links {
-			width: 400px;
+			width: 500px;
 			text-align: center;
 			margin: 0 auto;
 			.row {
@@ -298,18 +298,18 @@ a {
 			}
 			.linkimage {
 				width: 40px;
-				margin: 20px 40px;
+				margin: 20px 50px;
 			}
 			.meetupimage {
 				width: 50px;
-				margin: 15px 40px;
+				margin: 15px 45px;
 			}
 			
 		}
 		#resume {
 			height: 25px;
-			margin: 0 auto;
-			width: 300px;
+			margin: 20px auto;
+			width: 240px;
 			position: relative;
 			button {
 				padding: 0;
@@ -317,7 +317,7 @@ a {
 				margin: 0 auto;
 				background-color: rgba(250,250,250,1);
 				border: none;
-				width: 200px;
+				width: 150px;
 				&:hover {
 			  	background-color: rgba(250,250,250,.7);
 			 		cursor: pointer;
