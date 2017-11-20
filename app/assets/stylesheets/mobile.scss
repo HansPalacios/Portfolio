@@ -15,17 +15,21 @@
 			}
 			.bio p {
 				font-size: 13px;
+				width: 80%;
+			}
+			.bio .quote {
+				width: 100%;
+				text-align: center;
 			}
 			.bio p em {
 				font-size: 10px;
 				margin: 0 auto;
-				padding-left: 8%;
 				position: relative;
+				right: auto;
 			}
 			.bio pre {
 				font-size: 10px;
 				top: 100px;
-				font-weight: 900px;
 			}
 		}
 		hr {
