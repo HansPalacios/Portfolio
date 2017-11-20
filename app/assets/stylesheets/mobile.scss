@@ -67,8 +67,13 @@
 				p {
 					font-size: 12px;
 				}
-				li {
-					font-size: 12px;
+				ul {
+					width: 90%;
+					text-align: left;
+					margin: 0 5%;
+					li {
+						font-size: 12px;
+					}
 				}
 				.githublink {
 					width: 20px;
