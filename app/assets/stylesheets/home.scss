@@ -37,6 +37,10 @@ a {
 	margin: 0 auto;
 	text-align: center;
 }
+.mobileonly {
+	display: none;
+}
+
 
 #home {
 	position: relative;
@@ -51,7 +55,7 @@ a {
 	#heading {
 		position: relative;
 		height: 100%;
-		min-height: 700px;
+		min-height: 100%;
 		margin: 0;
 		text-align: center;
 		.center {
@@ -383,4 +387,15 @@ a {
 	top: 11%;
 	cursor: pointer;
 	z-index: 2;
+}
+
+
+
+@media only screen and (max-width: 442px) {
+	.mobileonly {
+		display: inline-block;
+	}
+	#heading h1 {
+		font-size: 30px;
+	}
 }
