@@ -24,15 +24,32 @@
 			}
 			.bio pre {
 				font-size: 10px;
+				top: 100px;
+				font-weight: 900px;
 			}
 		}
 		hr {
 			height: 3px;
 			background-color: black;
 		}
+		#techskills {
+			padding-bottom: 30px;
+			h2 {
+				font-weight: 900;
+				font-size: 18px;
+			}
+			ul {
+				margin-bottom: 20px;
+				li {
+					line-height: 20px;
+					font-size: 10px;
+				}
+			}
+		}
 		#projects {
 			padding-bottom: 30px;
 			h2 {
+				font-weight: 900;
 				font-size: 18px;
 				padding: 50px 0 20px 0;
 				height: auto;
@@ -61,21 +78,9 @@
 				height: 20px;
 			}
 		}
-		#techskills {
-			padding-bottom: 30px;
-			h2 {
-				font-size: 18px;
-			}
-			ul {
-				margin-bottom: 20px;
-				li {
-					line-height: 20px;
-					font-size: 10px;
-				}
-			}
-		}
 		#contact {
 			h2 {
+				font-weight: 900;
 				font-size: 18px;
 			}
 			h3 {
