@@ -46,4 +46,14 @@
 			}
 		}
 	}
+	#home #contact #showresume {
+		img {
+			width: 90%;
+			height: auto;
+			overflow-y: scroll;
+		}
+		#close {
+			margin-left: 90%;
+		}
+	}
 }
