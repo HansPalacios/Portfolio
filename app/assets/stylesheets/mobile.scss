@@ -1,59 +1,108 @@
 @media only screen and (max-width: 442px) {
-	.hideme {
+	.mobileonly {
 		display: inline-block;
 	}
-	#home #heading {
-		.center h1 {
-			font-size: 30px;
-		}
-		h2 {
-			font-size: 15px;
-		}
-		.bio {
-			margin: 20px auto;
-		}
-		.bio p {
-			font-size: 13px;
-		}
-		.bio p em {
-			font-size: 10px;
-			margin: 0 auto;
-			padding-left: 8%;
-			position: relative;
-		}
-		.bio pre {
-			font-size: 10px;
-		}
-	}
-	hr {
-		height: 4px;
-		background-color: black;
-	}
-	#home #projects .projectlist {
-		padding-left: 10%;
-		padding-right: 10%;
-	}
-	#home #techskills {
-		padding-bottom: 30px;
-		h2 {
-			font-size: 15px;
-		}
-		ul {
-			margin-bottom: 20px;
-			li {
-				line-height: 20px;
+	#home {
+		#heading {
+			.center h1 {
+				font-size: 30px;
+			}
+			h2 {
+				font-size: 15px;
+			}
+			.bio {
+				margin: 20px auto;
+			}
+			.bio p {
+				font-size: 13px;
+			}
+			.bio p em {
+				font-size: 10px;
+				margin: 0 auto;
+				padding-left: 8%;
+				position: relative;
+			}
+			.bio pre {
 				font-size: 10px;
 			}
 		}
-	}
-	#home #contact #showresume {
-		img {
-			width: 90%;
-			height: auto;
-			overflow-y: scroll;
+		hr {
+			height: 3px;
+			background-color: black;
 		}
-		#close {
-			margin-left: 90%;
+		#projects {
+			padding-bottom: 30px;
+			h2 {
+				font-size: 18px;
+				padding: 50px 0 20px 0;
+				height: auto;
+			}
+			.projectlist {
+				padding-left: 10%;
+				padding-right: 10%;
+				h3 {
+					font-size: 15px;
+				}
+				p {
+					font-size: 12px;
+				}
+				li {
+					font-size: 12px;
+				}
+				.githublink {
+					width: 20px;
+				}
+			}
+			.gotosite button {
+				font-size: 15px;
+				padding-top: 0;
+			}
+			.hidemobile {
+				height: 20px;
+			}
+		}
+		#techskills {
+			padding-bottom: 30px;
+			h2 {
+				font-size: 18px;
+			}
+			ul {
+				margin-bottom: 20px;
+				li {
+					line-height: 20px;
+					font-size: 10px;
+				}
+			}
+		}
+		#contact {
+			h2 {
+				font-size: 18px;
+			}
+			h3 {
+				font-size: 15px;
+			}
+			#resume button {
+				font-size: 15px;
+			}
+			#showresume {
+				img {
+					width: 90%;
+					height: auto;
+					overflow-y: scroll;
+				}
+				#close {
+					margin-left: 90%;
+				}
+			}
+			#links {
+				width: 70%;
+				.linkimage {
+					margin: 20px 10%;
+				}
+				.meetupimage {
+					margin: 15px 7%;
+				}
+			}
 		}
 	}
 }
