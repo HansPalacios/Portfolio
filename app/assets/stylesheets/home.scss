@@ -211,7 +211,6 @@ a {
 				text-align: left;
 			}
 			ul {
-				// width: 80%;
 				text-align: left;
 				margin-left: 10%;
 				margin-top: 20px;
@@ -233,13 +232,13 @@ a {
 			padding: 10px;
 		}
 		#datenightimage {
-			background-image: url("datenight.png");
+			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/datenight.png");
 		}
 		#groundworkimage {
-			background-image: url("groundworkimage2.png");
+			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/groundworkimage2.png");
 		}
 		#wherenextimage {
-			background-image: url("wherenext.png");
+			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/wherenext.png");
 		}
 		.siteimages {
 			background-size: contain;
