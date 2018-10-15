@@ -172,15 +172,23 @@ a {
 		.gotosite {
 			height: 80px;
 			a, button {
-				height: 20px;
+				font-size: 13px;
+				height: 30px;
 				width: 200px;
 				padding: 0;
 				padding-top: 1px;
 				margin: 0 auto;
+				background-color: white;
+				&:visited {
+					background-color: white;
+				}
 			}
 			a {
 				margin-top: 40px;
+				// margin-bottom: 50px;
 				color: black;
+				padding: 2px;
+				display: block;
 			}
 		}
 		.projectlist {
@@ -207,8 +215,9 @@ a {
 				color: black;
 			}
 			li {
-				font-size: 15px;
+				font-size: 13px;
 				text-align: left;
+				margin-bottom: 10px;
 			}
 			ul {
 				text-align: left;
@@ -231,6 +240,10 @@ a {
 			height: 150px;
 			padding: 10px;
 		}
+		#velveteenimage {
+			margin-top: 20px;
+			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/velveteen.png");
+		}
 		#datenightimage {
 			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/datenight.png");
 		}
@@ -247,7 +260,7 @@ a {
 			height: 150px;
 			width: 250px;
 			margin: 0 auto;
-			
+			display: inline-block;
 			padding: 0;
 			h4 {
 				margin-top:50px;
