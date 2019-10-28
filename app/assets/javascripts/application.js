@@ -111,4 +111,12 @@ $(document).ready(function() {
 			$("#wherenextvideo").css("display", "none");
 			$("#close4").css("display", "none");
 	});
+	$("#velveteenimage").click(function(){
+			$("#velveteenvideo").css("display", "inline-block");
+			$("#close5").css("display", "inline-block");
+	});
+	$("#close5").click(function(){
+			$("#velveteenvideo").css("display", "none");
+			$("#close5").css("display", "none");
+	});
 });

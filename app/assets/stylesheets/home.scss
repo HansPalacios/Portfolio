@@ -243,16 +243,16 @@ a {
 		}
 		#velveteenimage {
 			margin-top: 20px;
-			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/velveteen.png");
+			background-image: url("https://d3758y7jd65doi.cloudfront.net/velveteen.png");
 		}
 		#datenightimage {
-			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/datenight.png");
+			background-image: url("https://d3758y7jd65doi.cloudfront.net/datenight.png");
 		}
 		#groundworkimage {
-			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/groundworkimage2.png");
+			background-image: url("https://d3758y7jd65doi.cloudfront.net/groundworkimage2.png");
 		}
 		#wherenextimage {
-			background-image: url("https://s3.us-east-2.amazonaws.com/hspalacios/wherenext.png");
+			background-image: url("https://d3758y7jd65doi.cloudfront.net/wherenext.png");
 		}
 		.siteimages {
 			background-size: contain;
@@ -266,7 +266,7 @@ a {
 			h4 {
 				margin-top:50px;
 				display: none;
-				font-shadow: 1px 1px white;
+				text-shadow: 1px 1px white; 
 			}
 			&:hover {
 				cursor: pointer;
@@ -392,7 +392,7 @@ a {
 	border: 1px solid rgba(0,0,0,.8);
 	border-right: 2px solid rgba(0,0,0,.8);
 }
-#datenightvideo, #groundworkvideo, #wherenextvideo {
+#datenightvideo, #groundworkvideo, #wherenextvideo, #velveteenvideo {
 	display: none;
 }
 .close {

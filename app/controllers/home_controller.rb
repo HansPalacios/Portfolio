@@ -6,7 +6,7 @@ class HomeController < ApplicationController
 	def download_pdf
 	  send_file(
 	    "#{Rails.root}/public/Hans_Palacios_Resume.pdf",
-	    filename: "Hans_Palacios_Resume.pdf",
+	    filename: "hanspalaciosresume.pdf",
 	    type: "application/pdf"
 	  )
 	end
